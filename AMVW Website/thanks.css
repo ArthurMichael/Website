@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Ubuntu&display=swap');
+
+html {
+  /* background-image: url('wine_glasses.jpg');
+  background-size: cover;
+  min-height: 100%; */
+  background-color: #fffdfa;
+
+}
+
+.container {
+  font-family: 'DM Serif Display', serif;
+  color: #1f1f1f;
+  font-size: 6vw;
+  mix-blend-mode: hard-light;
+  text-align: center;
+
+}
+
+h1 {
+  padding-bottom: 50px;
+}
+
+h6 {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0px;
+}
+
+img {
+  mix-blend-mode: multiply;
+  max-width: 400px;
+  margin: 20px;
+
+}
+
+@media only screen and (min-width: 500px) {
+  .container {
+    font-size: 35px;
+  }
+}
