@@ -313,6 +313,7 @@ html, body{ height: 100%; }
   display: flex;
   justify-content: space-around;
   width: 100%;
+  text-align: center;
 }
 
 .main-menu .navbar-default .navbar-nav li a{
@@ -420,8 +421,9 @@ html, body{ height: 100%; }
 
 
 .web-text{
-  transform: scale(0.92);
-  float: right;
+  /* transform: scale(0.92); */
+  /* float: right; */
+  width: 100%;
 }
 
 .logoCont {
@@ -477,7 +479,7 @@ html, body{ height: 100%; }
 .banner .container, .banner .banner-static, .banner .col-lg-12 {
     height: 100%;
     display: flex;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: 30px;
 
 }
@@ -1567,8 +1569,7 @@ h2 {
 
 .form-title{
   text-align: center;
-  color: #fffdfa;
-  mix-blend-mode: difference;
+  color: black;
 }
 
 .form-reservations-box{
@@ -1612,6 +1613,8 @@ h2 {
   height: 5vw;
   max-width: 190px;
   max-height: 160px;
+  min-width: 100px;
+  min-height: 80px;
   background-color: #ccb070;
   color: #fffdfa;
   font-weight: 800;
@@ -1627,10 +1630,9 @@ h2 {
 }
 
 .goBack {
-  color:#ccb070;
+  color:black;
   font-size: 20px;
   font-weight: bold;
-  mix-blend-mode: difference;
 }
 
 .goBack:hover{

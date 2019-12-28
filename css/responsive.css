@@ -185,7 +185,8 @@
 	}
 	.banner {
 		min-height: 800px !important;
-		background-size: inherit;
+		/* background-size: inherit; */
+		margin: 150px 0px 0px 0px;
 	}
 	.team-main{
 		background-size: inherit;
